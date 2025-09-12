@@ -6,73 +6,80 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>test balise</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <!--<link rel='stylesheet' type='text/css' media='screen' href='main.css'>   pas encore de fichier CSS-->
+    <link rel='stylesheet' type='text/css' href='Style.css'>
     <!--<script src='main.js'></script> pas encore de fichier javaScript-->
 </head>
 
 <body><!--ellement de page -->
-    <h1>Guten Tag</h1>
-    <h2>Bonjour</h2>
-    <h3>こんにちは</h3>
-    <h4>Hello</h4>
-    <p>Chaque langue un mots specifique pour dire bonjour.</p>
-    <P>Mais d'où vient c'est différence et c'est similitude ?</P>
-    <img src="annexe/lange.png" alt="Il n'y pas d'image ici" width="250" height="250" />
+    <div id="bandeau">
+        <p id="bandeau">Guten Tag</p>
+        <p id="bandeau">Bonjour</6>
+        <p id="bandeau">こんにちは</p>
+        <p id="bandeau">Hello</p>
+    </div>
 
-    <br>
-    <table> <!--Creation du tableau-->
-        <caption> <!--Définit le titre du tableau-->
-            Les langue et leur origine
-        </caption>
-        <thead><!--Définit l'en-tete des colonnes du tableau-->
-            <tr> <!--Définit les ligne du tableau-->
-                <th>langue</th>
-                <th>racine</th>
-            </tr>
-        </thead>
-        <tbody> <!--creation colonne-->
-            <tr>
-                <td>Allemand</td>
-                <td>Gemanique</td>
-            </tr>
-            <tr>
-                <td>Français</td>
-                <td>Latin</td>
-            </tr>
-            <tr>
-                <td>Japonais</td>
-                <td> </td>
-            </tr>
-            <tr>
-                <td>Anglais</td>
-                <td>Germanique</td>
-            </tr>
-        </tbody>
-    </table>
+    <div id="contenu">
+        <p>Chaque langue un mots specifique pour dire bonjour.</p>
+        <P>Mais d'où vient c'est différence et c'est similitude ?</P>
+        <img src="annexe/lange.png" alt="Il n'y pas d'image ici" width="250" height="250" />
 
-    <br>
-    <p><i> Lien complémentaire </i></p>
-    <ul> <!--Creation d'une liste-->
-        <li><a href="https://fr.wikipedia.org/wiki/Allemand">Wikipedia allemand</a></li>
-        <li><a href="https://fr.wikipedia.org/wiki/Fran%C3%A7ais">Wikipedia français</a></li>
-        <li><a href="https://fr.wikipedia.org/wiki/Japonais">Wikipedia Japonais</a></li>
-        <li><a href="https://fr.wikipedia.org/wiki/Anglais">Wikipedia anglais</a></li>
-    </ul>
-
-    <br>
-    <p><b>Pour la NewsLetter</b></p>
-    <form action="" method="get" class="form-example"> <!--formulaire-->
-        <div class="form-example">
-            <label for="email">Enter votre email: </label>
-            <input type="email" name="email" id="email" required /> <!--Zonne de saisie -->>
-        </div>
         <br>
-        <div class="form-example">
-            <input type="submit" value="Je m'inscrire" /> <!--bouton cliquable-->>
-            <button type="button"> Je me rétracte</button>
-        </div>
-    </form>
-    
+        <table> <!--Creation du tableau-->
+            <caption> <!--Définit le titre du tableau-->
+                Les langue et leur origine
+            </caption>
+            <thead><!--Définit l'en-tete des colonnes du tableau-->
+                <tr> <!--Définit les ligne du tableau-->
+                    <th>langue</th>
+                    <th>racine</th>
+                </tr>
+            </thead>
+            <tbody> <!--creation colonne-->
+                <tr>
+                    <td>Allemand</td>
+                    <td>Gemanique</td>
+                </tr>
+                <tr>
+                    <td>Français</td>
+                    <td>Latin</td>
+                </tr>
+                <tr>
+                    <td>Japonais</td>
+                    <td> </td>
+                </tr>
+                <tr>
+                    <td>Anglais</td>
+                    <td>Germanique</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <br>
+        <p><i> Lien complémentaire </i></p>
+        <ul> <!--Creation d'une liste-->
+            <li><a href="https://fr.wikipedia.org/wiki/Allemand">Wikipedia allemand</a></li>
+            <li><a href="https://fr.wikipedia.org/wiki/Fran%C3%A7ais">Wikipedia français</a></li>
+            <li><a href="https://fr.wikipedia.org/wiki/Japonais">Wikipedia Japonais</a></li>
+            <li><a href="https://fr.wikipedia.org/wiki/Anglais">Wikipedia anglais</a></li>
+        </ul>
+    </div>
+
+    <br>
+
+    <div id="piedpage">
+        <p><b>Pour la NewsLetter</b></p>
+        <form action="" method="get" class="form-example"> <!--formulaire-->
+            <div class="form-example">
+                <label for="email">Enter votre email: </label>
+                <input type="email" name="email" id="email" required /> <!--Zonne de saisie -->>
+            </div>
+            <br>
+            <div class="form-example">
+                <input type="submit" value="Je m'inscrire" /> <!--bouton cliquable-->>
+                <button type="button"> Je me rétracte</button>
+            </div>
+        </form>
+    </div>
     <p> <i>Les Mentions supplémentaires arrivent plus tard !</i></p>
 
 </body>

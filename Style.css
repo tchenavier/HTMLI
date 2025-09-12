@@ -1,0 +1,20 @@
+P#bandeau {
+    color: #FF0000;
+    width: 20px /*Largeur du texte*/
+}
+
+div#bandeau {
+    width: 500px;
+    height: 300px;
+}
+
+div#contenu {
+    width: 600px; 
+    height: 600px;
+}
+
+div#piedpage {
+    width: 500px;
+    height: 200px;
+    clear: both;
+}
