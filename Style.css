@@ -5,12 +5,12 @@ P#bandeau {
 
 div#bandeau {
     width: 500px;
-    height: 300px;
+    height: 250px;
 }
 
 div#contenu {
     width: 600px; 
-    height: 600px;
+    height: 650px;
 }
 
 div#piedpage {
@@ -18,3 +18,21 @@ div#piedpage {
     height: 200px;
     clear: both;
 }
+/* Début paramétre tableau*/
+table {
+  border-collapse: collapse;
+  border: 2px solid rgb(140 140 140);
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+}
+th,
+td {
+  border: 1px solid rgb(160 160 160);
+  padding: 8px 10px;
+}
+
+td:last-of-type {
+  text-align: center;
+}
+/* Fin paramétre tableau*/
